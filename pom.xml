@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>edu.stonybrook.bmi</groupId>
+    <artifactId>Nanoborb</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>jcef</groupId>
+            <artifactId>jcef</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>jogl-all-natives-windows-amd64</groupId>
+            <artifactId>jogl-all-natives-windows-amd64</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>jogl-all</groupId>
+            <artifactId>jogl-all</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>gluegen-rt</groupId>
+            <artifactId>gluegen-rt</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>gluegen-rt-natives-windows-amd64</groupId>
+            <artifactId>gluegen-rt-natives-windows-amd64</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ebremer</groupId>
+            <artifactId>ImageBox</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <build>
+        <resources>
+            <resource>
+                <directory>files/</directory>
+                    <includes>
+                        <include>**/*.js</include>
+                        <include>**/*.html</include>
+                        <include>**/*.svs</include>
+                    </includes>
+                </resource>             
+            </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.3</version>
+                <configuration>
+                    <shadedArtifactAttached>false</shadedArtifactAttached>
+                    <transformers>
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                            <mainClass>edu.stonybrook.bmi.nanoborb.MainFrame</mainClass>
+                        </transformer>
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer" />
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer">
+                            <addHeader>false</addHeader>
+                        </transformer>
+                    </transformers>
+                <filters>
+                    <filter>
+                        <artifact>*:*</artifact>
+                        <excludes>
+                            <!-- Some jars are signed but shading breaks that.
+                                Don't include signing files.
+                            -->
+                            <exclude>META-INF/*.SF</exclude>
+                            <exclude>META-INF/*.DSA</exclude>
+                            <exclude>META-INF/*.RSA</exclude>
+                        </excludes>
+                    </filter>
+                </filters>
+                </configuration>
+                <executions>
+                    <execution>
+                    <phase>package</phase>
+                    <!--<phase /><!- - Switch off -->
+                    <goals>
+                        <goal>shade</goal>
+                    </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <propertyName>java.library.path</propertyName>
+                        <buildDirectory>lib/win64</buildDirectory>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

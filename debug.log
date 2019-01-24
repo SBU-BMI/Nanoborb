@@ -1,0 +1,384 @@
+[0123/223831.954:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/223833.005:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/223902.163:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0123/223902.208:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0123/223902.208:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/223902.208:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0123/223902.251:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/tkurc/PC_052_0_1.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/223902.317:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/223903.280:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/223904.327:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/223904.327:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/223949.068:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/223950.108:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/224006.035:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0123/224006.073:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0123/224006.073:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/224006.073:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0123/224006.116:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/tkurc/TCGA-06-0148-01A-01-BS1.d7cc4a9e-c6b0-4c0c-988e-436759eeceef.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/224006.183:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/224007.070:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/224007.071:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/224007.174:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/224658.432:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/224659.497:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/225204.170:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/225205.232:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/225216.220:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/225217.288:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/230247.346:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/230248.396:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/230437.524:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/230438.593:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/232737.186:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/232738.238:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/232806.212:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0123/232806.263:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0123/232806.263:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/232806.263:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0123/232806.307:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/tkurc/PC_052_0_1.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/232806.370:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/232807.317:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/232808.451:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/232808.451:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/232919.482:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/232920.546:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/232943.492:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0123/232943.537:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0123/232943.537:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/232943.537:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0123/232943.581:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/tkurc/TCGA-06-0148-01A-01-BS1.d7cc4a9e-c6b0-4c0c-988e-436759eeceef.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/232943.645:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/232944.469:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/232944.469:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0123/232944.595:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/234559.524:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/234600.583:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/234739.104:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0123/234740.161:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
