@@ -18,6 +18,7 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.AbstractAction;
@@ -28,7 +29,6 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import javax.swing.filechooser.FileSystemView;
 import org.cef.CefApp;
 import org.cef.CefApp.CefAppState;
 import org.cef.CefClient;
@@ -142,13 +142,19 @@ public class MainFrame extends JFrame {
     public static void main(String[] args) {
         ch.qos.logback.classic.Logger root = (ch.qos.logback.classic.Logger)(org.slf4j.Logger)LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME);
         root.setLevel(ch.qos.logback.classic.Level.OFF);
-        w.start();
-        System.out.println("Library path : "+System.getProperty("java.library.path"));
+
         if (OS.isWindows()) {
             System.out.println("Windows OS Detected...");
-            System.setProperty("java.library.path", "lib/win64" );
+            System.setProperty("java.library.path", "lib/win64" );    
         } else if (OS.isMacintosh()) {
             System.out.println("Mac OS Detected...");
+            File f = new java.io.File(MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath());
+            String jarname = f.getName();
+            String jarpath = f.getPath();
+            String prefix = "Contents/Java";
+            String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length());
+            System.out.println("YAY : "+apppath);
+            w.SetWebFilesPath(apppath+"Contents/files/webfiles");
         } else if (OS.isLinux()) {
             System.out.println("Linux OS Detected...");
         } else {
@@ -168,6 +174,7 @@ public class MainFrame extends JFrame {
         } catch (IllegalAccessException ex) {
             Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
         }
+        w.start();
         if (!CefApp.startup()) {
             System.out.println("Startup initialization failed!");
             return;
