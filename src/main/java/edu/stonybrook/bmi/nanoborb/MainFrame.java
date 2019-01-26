@@ -157,7 +157,7 @@ public class MainFrame extends JFrame {
             String prefix = "Contents/Java";
             String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length()-1);
             System.out.println("app path : "+apppath);
-            webfiles = apppath+"Content/Resources/files/webfiles";
+            webfiles = apppath+"Contents/Resources/files/webfiles";
         } else if (OS.isLinux()) {
             System.out.println("Linux OS Detected...");
             webfiles = "files/webfiles";
