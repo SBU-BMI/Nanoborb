@@ -152,8 +152,10 @@ public class MainFrame extends JFrame {
             String jarname = f.getName();
             String jarpath = f.getPath();
             String prefix = "Contents/Java";
+            System.out.println("jarname : "+jarname);
+            System.out.println("jarpath : "+jarpath);
             String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length());
-            System.out.println("YAY : "+apppath);
+            System.out.println("apppath : "+apppath);
             w.SetWebFilesPath(apppath+"Contents/files/webfiles");
         } else if (OS.isLinux()) {
             System.out.println("Linux OS Detected...");
