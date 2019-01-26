@@ -45,9 +45,11 @@ public class MainFrame extends JFrame {
     private final CefClient client_;
     private final CefBrowser browser_;
     private final Component browerUI_;
-    private static final ImageBoxServer w = new ImageBoxServer();
+    private static ImageBoxServer w;
 
-    private MainFrame(String startURL, boolean useOSR, boolean isTransparent) {
+    private MainFrame(String webfiles, String startURL, boolean useOSR, boolean isTransparent) {
+        w = new ImageBoxServer(webfiles);
+        w.start();
         CefApp.addAppHandler(new CefAppHandlerAdapter(null) {
             @Override
             public void stateHasChanged(org.cef.CefApp.CefAppState state) {
@@ -142,22 +144,23 @@ public class MainFrame extends JFrame {
     public static void main(String[] args) {
         ch.qos.logback.classic.Logger root = (ch.qos.logback.classic.Logger)(org.slf4j.Logger)LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME);
         root.setLevel(ch.qos.logback.classic.Level.OFF);
+        String webfiles = null;
         if (OS.isWindows()) {
             System.out.println("Windows OS Detected...");
-            System.setProperty("java.library.path", "lib/win64" );    
+            System.setProperty("java.library.path", "lib/win64" );
+            webfiles = "files/webfiles";
         } else if (OS.isMacintosh()) {
             System.out.println("Mac OS Detected...");
             File f = new java.io.File(MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath());
             String jarname = f.getName();
             String jarpath = f.getPath();
             String prefix = "Contents/Java";
-            System.out.println("jarname : "+jarname);
-            System.out.println("jarpath : "+jarpath);
             String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length()-1);
-            System.out.println("apppath : "+apppath);
-            w.SetWebFilesPath(apppath+"Resources/files/webfiles");
+            System.out.println("app path : "+apppath);
+            webfiles = apppath+"Resources/files/webfiles";
         } else if (OS.isLinux()) {
             System.out.println("Linux OS Detected...");
+            webfiles = "files/webfiles";
         } else {
             System.out.println("Unknown OS Detected...");
         }
@@ -175,12 +178,14 @@ public class MainFrame extends JFrame {
         } catch (IllegalAccessException ex) {
             Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
         }
-        w.start();
         if (!CefApp.startup()) {
             System.out.println("Startup initialization failed!");
             return;
         }
-        boolean useOsr = false;
-        MainFrame mf = new MainFrame("http://localhost:8888/files/splash.html", useOsr, false);
+        if (webfiles != null) {
+            MainFrame mf = new MainFrame(webfiles,"http://localhost:8888/files/splash.html", false, false);
+        } else {
+            System.out.println("Unsupported OS...");
+        }
     }
 }
