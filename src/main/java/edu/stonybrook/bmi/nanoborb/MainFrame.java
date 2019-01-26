@@ -142,7 +142,6 @@ public class MainFrame extends JFrame {
     public static void main(String[] args) {
         ch.qos.logback.classic.Logger root = (ch.qos.logback.classic.Logger)(org.slf4j.Logger)LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME);
         root.setLevel(ch.qos.logback.classic.Level.OFF);
-
         if (OS.isWindows()) {
             System.out.println("Windows OS Detected...");
             System.setProperty("java.library.path", "lib/win64" );    
@@ -156,7 +155,7 @@ public class MainFrame extends JFrame {
             System.out.println("jarpath : "+jarpath);
             String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length()-1);
             System.out.println("apppath : "+apppath);
-            w.SetWebFilesPath(apppath+"Contents/files/webfiles");
+            w.SetWebFilesPath(apppath+"Resources/files/webfiles");
         } else if (OS.isLinux()) {
             System.out.println("Linux OS Detected...");
         } else {
