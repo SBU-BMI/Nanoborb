@@ -144,6 +144,7 @@ public class MainFrame extends JFrame {
     public static void main(String[] args) {
         ch.qos.logback.classic.Logger root = (ch.qos.logback.classic.Logger)(org.slf4j.Logger)LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME);
         root.setLevel(ch.qos.logback.classic.Level.OFF);
+        System.out.println("Java Version : "+System.getProperty("java.version"));
         String webfiles = null;
         if (OS.isWindows()) {
             System.out.println("Windows OS Detected...");
