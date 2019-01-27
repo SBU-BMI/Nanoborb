@@ -154,7 +154,10 @@ public class MainFrame extends JFrame {
             File f = new java.io.File(MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath());
             String jarname = f.getName();
             String jarpath = f.getPath();
-            String prefix = "Contents/Java";
+            System.out.println("jar name : "+jarname);
+            System.out.println("jar path : "+jarpath);
+            //String prefix = "Contents/Java";
+            String prefix = "Contents/Resources";
             String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length()-1);
             System.out.println("app path : "+apppath);
             webfiles = apppath+"Contents/Resources/files/webfiles";
