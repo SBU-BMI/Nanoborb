@@ -382,3 +382,1990 @@ C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use
 C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 
+[0129/104856.485:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/104857.471:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/104919.076:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/104919.166:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/104919.166:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/104919.166:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/104919.219:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/20064-T (bed)-1 (xx) ImageCollection_0000032846_2018-04-09 06_23_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/104919.686:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/20064-T%20(bed)-1%20(xx)%20ImageCollection_0000032846_2018-04-09%2006_23_31.svs (0)
+[0129/104920.222:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105110.359:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105111.423:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105130.905:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/105130.975:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/105130.975:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/105130.975:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/105131.017:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/20064-T (bed)-1 (xx) ImageCollection_0000032846_2018-04-09 06_23_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/105131.475:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/20064-T%20(bed)-1%20(xx)%20ImageCollection_0000032846_2018-04-09%2006_23_31.svs (0)
+[0129/105132.031:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105233.589:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105234.657:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105247.816:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/105247.875:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/105247.875:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/105247.875:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/105247.918:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/20064-T (bed)-1 (xx) ImageCollection_0000032846_2018-04-09 06_23_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/105248.376:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/20064-T%20(bed)-1%20(xx)%20ImageCollection_0000032846_2018-04-09%2006_23_31.svs (0)
+[0129/105248.928:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105725.195:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105726.234:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/105739.680:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/105739.781:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/105739.781:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/105739.781:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/105739.826:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/20064-T (bed)-1 (xx) ImageCollection_0000032846_2018-04-09 06_23_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/105740.301:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/20064-T%20(bed)-1%20(xx)%20ImageCollection_0000032846_2018-04-09%2006_23_31.svs (0)
+[0129/105740.824:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/112438.145:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/112439.224:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/112452.152:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/112452.216:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/112452.216:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/112452.216:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/112452.264:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/20064-T (bed)-1 (xx) ImageCollection_0000032846_2018-04-09 06_23_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/112453.295:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/112453.937:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/112453.937:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/112453.998:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112453.998:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.018:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/112454.022:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.022:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.022:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.043:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.044:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.045:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.060:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.060:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.063:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.077:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.077:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.081:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.090:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.090:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.092:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.105:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.106:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.107:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.128:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.128:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.130:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.139:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.139:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.141:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.156:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.156:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.158:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.173:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.174:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.176:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.195:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.195:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.196:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.207:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.207:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.208:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.222:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.222:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.223:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.239:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.240:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.241:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.255:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.255:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.257:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.272:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.272:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.273:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.288:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.288:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.289:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.305:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.305:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.306:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.322:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.322:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.323:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.340:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.340:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.340:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.357:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.357:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.359:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.381:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.382:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.383:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.389:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.389:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.390:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.406:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.406:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.407:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.423:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.423:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.424:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.439:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.439:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.440:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.455:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.455:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.456:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.473:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.473:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.474:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.490:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.490:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.491:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.505:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.505:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.506:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.523:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.523:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.524:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.539:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.539:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.540:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.556:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.556:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.557:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.573:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.573:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.574:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.589:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.590:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.591:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.605:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.605:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.606:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.623:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.623:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.624:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.639:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.640:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.641:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.662:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.663:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.664:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.673:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.673:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.676:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.690:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.690:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.691:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.705:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.705:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.706:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.725:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.725:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.725:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.741:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.741:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.742:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.756:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.756:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.757:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.772:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.773:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.774:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.788:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.789:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.790:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.806:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.806:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.807:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.823:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.823:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.824:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.838:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.839:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.840:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.856:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.857:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.857:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.872:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.872:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.874:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.888:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.889:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.890:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.906:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.906:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.907:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.922:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.922:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.923:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.939:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.939:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.941:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.955:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.955:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.957:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.973:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.973:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.974:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.989:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.989:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112454.990:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.006:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.007:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.008:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.021:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.022:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.023:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.043:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.044:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.045:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.056:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.056:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.058:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.073:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.073:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.073:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.088:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.089:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.089:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.106:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.106:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.107:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.123:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.123:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.124:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.140:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.140:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.147:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.156:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.156:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.162:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.172:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.172:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.174:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.194:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.194:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.194:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.205:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.205:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.206:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.222:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.222:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.223:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.238:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.239:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.240:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.256:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.256:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.257:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.273:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.273:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.274:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.290:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.290:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.291:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.306:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.306:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.307:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.323:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.323:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.324:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.339:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.339:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.341:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.358:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.358:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.358:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.372:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.372:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.373:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.390:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.391:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.392:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.407:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.407:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.408:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.423:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.423:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.423:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.444:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.445:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.446:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.456:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.456:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.458:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.472:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.473:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.473:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.489:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.489:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.490:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.506:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.506:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.507:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.522:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.523:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.523:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.539:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.539:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.540:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.568:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.568:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.570:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.590:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.590:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.592:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.613:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.614:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.615:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.624:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.624:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.625:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.644:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.644:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.645:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.657:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.657:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.659:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.677:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.677:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.677:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.694:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.694:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.694:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.705:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.705:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.707:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.726:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.726:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.727:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.740:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.740:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.741:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.755:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.755:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.756:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.773:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.773:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.774:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.790:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.790:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.791:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.809:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.809:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.810:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.824:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.824:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.826:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.839:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.840:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.840:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.857:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.857:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.858:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.878:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.879:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.880:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/112455.891:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/113017.232:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113018.276:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113029.989:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/113030.040:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/113030.040:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113030.040:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/113030.083:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/20064-T (bed)-1 (xx) ImageCollection_0000032846_2018-04-09 06_23_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113031.124:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113031.585:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113031.585:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113031.664:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113054.294:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/113054.326:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/113054.326:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113054.326:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/113054.347:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/2111160-T", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113054.361:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs (0)
+[0129/113331.824:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113332.882:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113347.217:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/113347.273:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/113347.273:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113347.273:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/113347.316:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/2111160-T", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113347.776:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs (0)
+[0129/113348.335:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113635.416:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113636.467:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/113649.839:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/113649.915:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/113649.915:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113649.916:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/113649.957:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All Slides (40x)/2111160-T", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/113650.445:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs (0)
+[0129/113650.967:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/120722.976:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/120724.035:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/120738.707:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/120738.805:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/120738.805:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/120738.805:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/120738.847:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/120738.875:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file%3A%2FD%3A%2Fproblemfiles%2Fimages%2FAll%2520Slides%2520%2840x%29%2F2111160-T%26N-1%2520ImageCollection_0000035063_2018-06-07%252008_52_31.svs (0)
+[0129/120739.853:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/122107.792:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/122108.856:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/122128.808:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/122128.905:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/122128.905:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/122128.905:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/122128.949:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/122128.980:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file%3A%2FD%3A%2Fproblemfiles%2Fimages%2FAll%2520Slides%2520%2840x%29%2F2111160-T%26N-1%2520ImageCollection_0000035063_2018-06-07%252008_52_31.svs (0)
+[0129/122129.954:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/124856.176:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/124857.229:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/124909.802:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/124909.867:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/124909.867:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/124909.868:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/124909.910:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/124909.940:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file%3A%2FD%3A%2Fproblemfiles%2Fimages%2FAll%2520Slides%2520%2840x%29%2F2111160-T%26N-1%2520ImageCollection_0000035063_2018-06-07%252008_52_31.svs (0)
+[0129/124910.923:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/130543.286:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/130544.346:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/130557.169:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/130557.266:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/130557.266:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/130557.266:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/130557.309:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/130557.339:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file%3A%2FD%3A%2Fproblemfiles%2Fimages%2FAll%2520Slides%2520%2840x%29%2F2111160-T%26N-1%2520ImageCollection_0000035063_2018-06-07%252008_52_31.svs (0)
+[0129/130558.315:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/130851.562:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/130852.622:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/130909.042:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/130909.107:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/130909.107:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/130909.107:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/130909.149:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/130910.191:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/130910.782:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/130910.782:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/130910.865:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/131203.398:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/131203.427:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/131203.427:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131203.427:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/131203.449:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/20064-T%20(bed)-1%20(xx)%20ImageCollection_0000032846_2018-04-09%2006_23_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131204.261:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131204.261:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131221.332:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/131221.364:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/131221.364:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131221.365:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/131221.385:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/All%20Slides%20(40x)/2111160-T&N-1%20ImageCollection_0000035063_2018-06-07%2008_52_31.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131221.986:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131221.986:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131243.964:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/131243.970:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/131243.970:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131243.970:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/131243.990:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/IF+IHC%20HE/N00870%20B18%20K19%20IHC+%20DAPI_01.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131244.687:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131244.688:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131306.649:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/131306.656:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/131306.656:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131306.656:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/131306.676:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/IF+IHC%20HE/O312205%20DAPI%20+%20PBS01.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131306.921:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131306.921:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131740.707:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/131741.756:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/131752.929:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/131752.972:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/131752.973:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131752.973:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/131753.016:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/tkurc/PC_052_0_1.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131754.021:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/131755.076:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131755.076:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/131755.166:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/132125.731:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/132126.800:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/132141.560:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/132141.649:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/132141.650:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/132141.650:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/132141.694:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/132142.565:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/132142.565:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/132142.635:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/132446.746:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/132447.731:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/132504.407:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/132505.461:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/132522.232:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/132522.321:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/132522.321:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/132522.321:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/132522.366:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/132523.227:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/132523.228:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/132523.301:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/133155.391:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/133156.431:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/133208.768:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/133208.861:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/133208.861:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/133208.861:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/133208.904:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/133209.764:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/133209.765:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/133209.826:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.826:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.827:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.827:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.827:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.833:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/133209.858:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.858:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.860:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.898:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.899:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.899:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.902:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.902:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.902:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.921:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.921:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.921:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.936:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.937:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.937:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.953:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.953:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.953:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.972:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.972:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.974:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.988:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.989:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133209.989:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.006:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.006:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.006:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.021:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.021:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.021:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.040:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.040:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.336:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.336:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.403:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.589:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.590:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.590:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.590:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.657:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.723:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.723:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.792:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.792:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.792:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.859:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.859:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133210.931:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133211.005:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133211.005:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133211.067:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133211.119:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/133728.244:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/133729.310:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/133738.849:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/133738.944:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/133738.944:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/133738.944:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/133738.987:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/133739.859:INFO:CONSOLE(0)] "Uncaught (in promise) SyntaxError: Unexpected token < in JSON at position 0", source: http://localhost:8888/files/caMicroscope/apps/lite/viewer.html?slideId=local&id=http://localhost:8888/bog/file%3A%2FD%3A%2Fproblemfiles%2Fimages%2F111558.svs (0)
+[0129/133739.999:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(44,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134356.077:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134357.148:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134408.212:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/134408.284:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/134408.284:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134408.284:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/134408.327:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134409.197:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134409.197:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134409.270:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134559.822:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134600.887:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134609.969:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/134610.049:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/134610.049:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134610.049:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/134610.091:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134610.961:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134610.961:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134611.013:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.014:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.030:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134611.033:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.033:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.034:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.088:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.088:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.089:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.112:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.113:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.114:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.130:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.130:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.130:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.147:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.147:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.147:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.167:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.167:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.167:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.179:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.179:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.179:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.195:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.195:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.195:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.212:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.214:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.215:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.230:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.230:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.230:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.249:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.249:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.249:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134611.588:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134636.073:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134637.142:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134656.754:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134657.805:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134710.596:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/134710.683:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/134710.683:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134710.683:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/134710.727:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134711.601:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134711.601:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/134711.655:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.655:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.667:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.667:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.667:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.670:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/134711.719:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.719:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.719:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.733:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.733:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.735:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.746:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.747:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.747:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.772:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.772:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.772:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.779:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.780:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.780:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.797:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.797:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.797:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.812:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.812:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.813:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.828:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.830:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.830:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.850:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.850:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.850:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.862:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.862:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134711.862:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/134712.217:INFO:CONSOLE(20821)] "Tile %s failed to load: %s - error: %s", source: http://localhost:8888/files/caMicroscope/core/openseadragon/openseadragon.js (20821)
+[0129/140041.870:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/140042.916:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/140052.616:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/140052.692:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/140052.692:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/140052.692:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/140052.739:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/140053.585:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/140053.585:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/140053.653:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/140200.450:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/140201.498:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/140214.449:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/140214.525:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/140214.525:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/140214.525:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/140214.567:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/140215.430:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/140215.430:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/140215.498:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/141218.475:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/141219.547:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/141641.933:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(35,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(43,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/141642.356:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(73,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(95,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0129/141655.619:INFO:CONSOLE(2277)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: http://localhost:8888/files/caMicroscope/common/pureform/pure-form.js (2277)
+[0129/141655.658:INFO:CONSOLE(2)] "{localstore mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (2)
+[0129/141655.658:INFO:CONSOLE(4)] "{imgbox mods enabled}", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/141655.659:INFO:CONSOLE(6)] "This setup is intended for imagebox", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (6)
+[0129/141655.703:INFO:CONSOLE(4)] "image ID : http://localhost:8888/bog/file:/D:/problemfiles/images/111558.svs", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/141656.632:INFO:CONSOLE(4)] "function(e){
+    // image loaded
+    if(e.hasError){
+      $UI.message.addError(e.message)
+    }else{
+      $D.params.data = e;
+      // popup panel
+      $CAMIC.viewer.addHandler('canvas-lay-click',function(e){
+        if(!e.data) {
+          $UI.annotPopup.close();
+          return;
+        }
+        // for support QUIP 2.0
+        const data = Array.isArray(e.data)? e.data[e.data.selected]: e.data;
+
+        const type = data.provenance.analysis.source;
+        let body;
+        let attributes;
+        switch (type) {
+          case "human":
+            // human
+            attributes = data.properties.annotations;
+            body = convertHumanAnnotationToPopupBody(attributes);
+            $UI.annotPopup.showFooter();
+            break;
+          case "computer":
+            // handle data.provenance.analysis.computation = `segmentation`
+            attributes = data.properties.scalar_features[0].nv;
+            body = {type:'map',data:attributes};
+            $UI.annotPopup.hideFooter();
+            break;
+          default:
+            return;
+            // statements_def
+            break;
+        }
+        $UI.annotPopup.data = {
+          id:data.provenance.analysis.execution_id,
+          oid:data._id.$oid,
+          annotation:attributes
+        };
+        $UI.annotPopup.setTitle(`id:${data.provenance.analysis.execution_id}`);
+        $UI.annotPopup.setBody(body);
+        $UI.annotPopup.open(e.position);
+      });
+
+      // create the message bar TODO for reading slide Info TODO
+      $UI.slideInfos = new CaMessage({
+      /* opts that need to think of*/
+        id:'cames',
+        defaultText:`Slide: ${$D.params.data.name}`
+      });
+
+      // spyglass
+      $UI.spyglass = new Spyglass({
+        targetViewer:$CAMIC.viewer,
+        imgsrc:$D.params.data.url
+      });
+    }
+  }", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/141656.632:INFO:CONSOLE(4)] "[object Object]", source: http://localhost:8888/files/caMicroscope/dist/imgbox_package.js (4)
+[0129/141656.703:WARNING:angle_platform_impl.cc(59)] compileToBinary(235): 
+C:\fakepath(54,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(62,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+

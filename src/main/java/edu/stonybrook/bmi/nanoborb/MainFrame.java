@@ -15,10 +15,12 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.AbstractAction;
@@ -93,10 +95,22 @@ public class MainFrame extends JFrame {
 		jfc.addChoosableFileFilter(filter);
 		int returnValue = jfc.showOpenDialog(null);
 		if (returnValue == JFileChooser.APPROVE_OPTION) {
-                    System.out.println("You chose wisely!");
                     File f = jfc.getSelectedFile();
-                    address_ = "http://localhost:8888/files/camic.html?id=http://localhost:8888/bog/"+f.toURI().toString();
-                    browser_.loadURL(address_);
+                    if (f.exists()) {
+                        System.out.println("You chose wisely! "+f.getPath());
+                        System.out.println("pre conversion : "+f.toURI().toString());
+                        String target = null;
+                        try {
+                            target = URLEncoder.encode(f.toURI().toString(),"UTF-8");
+                        } catch (UnsupportedEncodingException ex) {
+                            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                        }
+                        address_ = "http://localhost:8888/files/camic.html?id=http://localhost:8888/bog/"+target;
+                        //address_ = "http://localhost:8888/files/caMicroscope/apps/lite/viewer/viewer.html?slideId=local&id=http://localhost:8888/bog/"+target;
+                        browser_.loadURL(address_);
+                    } else {
+                        System.out.println("File cannot be found.  Please check for weird and offending characters.");
+                    }
 		}
             }
         });
