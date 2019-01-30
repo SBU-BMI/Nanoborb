@@ -12,6 +12,7 @@
           <include>**/*.js</include>
           <include>**/*.html</include>
           <include>**/*.svs</include>
+          <include>**/*.png</include>
         </includes>
       </resource>
     </resources>

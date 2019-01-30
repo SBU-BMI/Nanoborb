@@ -19,11 +19,11 @@ import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.net.URLEncoder;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.AbstractAction;
+import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -43,13 +43,20 @@ import org.slf4j.LoggerFactory;
 public class MainFrame extends JFrame {
     private static final long serialVersionUID = -5570653778104813836L;
     private String address_;
+    private static final String ApplicationName = "Nanoborb";
+    private static final String MacOSXApplicationName = "Nanoborb.app";
     private final CefApp cefApp_;
     private final CefClient client_;
     private final CefBrowser browser_;
     private final Component browerUI_;
     private static ImageBoxServer w;
+    private String currentdirectory;
 
-    private MainFrame(String webfiles, String startURL, boolean useOSR, boolean isTransparent) {
+    private MainFrame(String currentdirectory, String webfiles, String startURL, boolean useOSR, boolean isTransparent) {
+        this.currentdirectory = currentdirectory;
+        createMenuBar();
+        ImageIcon img = new ImageIcon(getClass().getResource("/webfiles/borb-20x20.png"));
+        setIconImage(img.getImage());
         w = new ImageBoxServer(webfiles);
         w.start();
         CefApp.addAppHandler(new CefAppHandlerAdapter(null) {
@@ -69,7 +76,6 @@ public class MainFrame extends JFrame {
         getContentPane().add(browerUI_, BorderLayout.CENTER);
         pack();
         setSize(1720, 840);
-        createMenuBar();
         setVisible(true);
         addWindowListener(new WindowAdapter() {
             @Override
@@ -88,7 +94,7 @@ public class MainFrame extends JFrame {
         JMenuItem openMenuItem = new JMenuItem(new AbstractAction("Open") {
             @Override
             public void actionPerformed(ActionEvent ae) {
-		JFileChooser jfc = new JFileChooser(new File(System.getProperty("user.dir")));
+		JFileChooser jfc = new JFileChooser(new File(currentdirectory));
 		jfc.setDialogTitle("Select an image");
 		jfc.setAcceptAllFileFilterUsed(false);
 		FileNameExtensionFilter filter = new FileNameExtensionFilter("SVS and TIF images", "svs", "tif", "tiff");
@@ -141,16 +147,14 @@ public class MainFrame extends JFrame {
         menubar.add(fileMenu);
         menubar.add(viewMenu);
         menubar.add(aboutMenu);
-        
+       
         setJMenuBar(menubar);
     }
     
     private void SendURLtoExternal() {
         try {
             Desktop.getDesktop().browse(new URI(address_));
-        } catch (URISyntaxException ex) {
-            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
+        } catch (URISyntaxException | IOException ex) {
             Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -160,6 +164,7 @@ public class MainFrame extends JFrame {
         root.setLevel(ch.qos.logback.classic.Level.OFF);
         System.out.println("Java Version : "+System.getProperty("java.version"));
         String webfiles = null;
+        String currentdirectory = System.getProperty("user.dir");
         if (OS.isWindows()) {
             System.out.println("Windows OS Detected...");
             System.setProperty("java.library.path", "lib/win64" );
@@ -171,11 +176,11 @@ public class MainFrame extends JFrame {
             String jarpath = f.getPath();
             System.out.println("jar name : "+jarname);
             System.out.println("jar path : "+jarpath);
-            //String prefix = "Contents/Java";
             String prefix = "Contents/Resources";
             String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length()-1);
             System.out.println("app path : "+apppath);
             webfiles = apppath+"Contents/Resources/files/webfiles";
+            currentdirectory = apppath.substring(0, apppath.length()-MacOSXApplicationName.length());
         } else if (OS.isLinux()) {
             System.out.println("Linux OS Detected...");
             webfiles = "files/webfiles";
@@ -201,7 +206,7 @@ public class MainFrame extends JFrame {
             return;
         }
         if (webfiles != null) {
-            MainFrame mf = new MainFrame(webfiles,"http://localhost:8888/files/splash.html", false, false);
+            MainFrame mf = new MainFrame(currentdirectory, webfiles,"http://localhost:8888/files/splash.html", false, false);
         } else {
             System.out.println("Unsupported OS...");
         }
