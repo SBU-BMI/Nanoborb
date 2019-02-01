@@ -96,9 +96,11 @@ public class MainFrame extends JFrame {
             public void actionPerformed(ActionEvent ae) {
 		JFileChooser jfc = new JFileChooser(new File(currentdirectory));
 		jfc.setDialogTitle("Select an image");
-		jfc.setAcceptAllFileFilterUsed(false);
-		FileNameExtensionFilter filter = new FileNameExtensionFilter("SVS and TIF images", "svs", "tif", "tiff");
-		jfc.addChoosableFileFilter(filter);
+		jfc.addChoosableFileFilter(new FileNameExtensionFilter("TIFF images", "tif", "tiff"));
+		jfc.addChoosableFileFilter(new FileNameExtensionFilter("SVS images", "svs"));
+                jfc.addChoosableFileFilter(new FileNameExtensionFilter("VSI images", "vsi"));
+                jfc.addChoosableFileFilter(new FileNameExtensionFilter("All images", "svs", "tif", "tiff","vsi"));
+                jfc.setAcceptAllFileFilterUsed(true);
 		int returnValue = jfc.showOpenDialog(null);
 		if (returnValue == JFileChooser.APPROVE_OPTION) {
                     File f = jfc.getSelectedFile();
