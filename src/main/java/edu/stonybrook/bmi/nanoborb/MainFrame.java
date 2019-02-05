@@ -20,6 +20,8 @@ import java.lang.reflect.Field;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.AbstractAction;
@@ -43,8 +45,8 @@ import org.slf4j.LoggerFactory;
 public class MainFrame extends JFrame {
     private static final long serialVersionUID = -5570653778104813836L;
     private String address_;
-    private static final String ApplicationName = "Nanoborb";
-    private static final String MacOSXApplicationName = "Nanoborb.app";
+    //private static final String ApplicationName = "Nanoborb";
+    //private static final String MacOSXApplicationName = "Nanoborb.app";
     private final CefApp cefApp_;
     private final CefClient client_;
     private final CefBrowser browser_;
@@ -174,6 +176,12 @@ public class MainFrame extends JFrame {
         } else if (OS.isMacintosh()) {
             System.out.println("Mac OS Detected...");
             File f = new java.io.File(MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath());
+            
+            String blah = MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+            System.out.println("interesting : "+blah);
+            Path w = Paths.get(blah);
+            System.out.println("NEO PATH "+w.getParent());
+            
             String jarname = f.getName();
             String jarpath = f.getPath();
             System.out.println("jar name : "+jarname);
@@ -182,7 +190,7 @@ public class MainFrame extends JFrame {
             String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length()-1);
             System.out.println("app path : "+apppath);
             webfiles = apppath+"Contents/Resources/files/webfiles";
-            currentdirectory = apppath.substring(0, apppath.length()-MacOSXApplicationName.length());
+            //currentdirectory = apppath.substring(0, apppath.length()-MacOSXApplicationName.length());
         } else if (OS.isLinux()) {
             System.out.println("Linux OS Detected...");
             webfiles = "files/webfiles";
