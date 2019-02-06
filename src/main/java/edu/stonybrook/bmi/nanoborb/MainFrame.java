@@ -9,7 +9,11 @@ import com.ebremer.imagebox.ImageBoxServer;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Desktop;
+import java.awt.Frame;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -45,8 +49,6 @@ import org.slf4j.LoggerFactory;
 public class MainFrame extends JFrame {
     private static final long serialVersionUID = -5570653778104813836L;
     private String address_;
-    //private static final String ApplicationName = "Nanoborb";
-    //private static final String MacOSXApplicationName = "Nanoborb.app";
     private final CefApp cefApp_;
     private final CefClient client_;
     private final CefBrowser browser_;
@@ -147,11 +149,23 @@ public class MainFrame extends JFrame {
             }
         });
         aboutMenu.add(quipMenuItem);
-        
+        final JMenuItem showDevTools = new JMenuItem("Developer Tools");
+        showDevTools.addActionListener((ActionEvent e) -> {
+            Frame owner_ = this;
+            DevToolsDialog devToolsDlg = new DevToolsDialog(owner_, "Developer Tools", browser_);
+            devToolsDlg.addComponentListener(new ComponentAdapter() {
+                @Override
+                public void componentHidden(ComponentEvent e) {
+                    showDevTools.setEnabled(true);
+                }
+            });
+            devToolsDlg.setVisible(true);
+            showDevTools.setEnabled(false);
+        });
+        aboutMenu.add(showDevTools);
         menubar.add(fileMenu);
         menubar.add(viewMenu);
         menubar.add(aboutMenu);
-       
         setJMenuBar(menubar);
     }
     
@@ -217,6 +231,7 @@ public class MainFrame extends JFrame {
         }
         if (webfiles != null) {
             MainFrame mf = new MainFrame(currentdirectory, webfiles,"http://localhost:8888/files/splash.html", false, false);
+            //MainFrame mf = new MainFrame(currentdirectory, webfiles,"data:application/json;charset=utf-8,%7B%22x%22%3A42%2C%22s%22%3A%22hello%2C%20world%22%2C%22d%22%3A%222019-02-06T04%3A45%3A19.522Z%22%7D", false, false);
         } else {
             System.out.println("Unsupported OS...");
         }

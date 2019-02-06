@@ -13,6 +13,24 @@ ALL RIGHTS RESERVED
         <img src="./borb.png"/>
         <div>Saltz, J., Sharma, A., Iyer, G., Bremer, E., Wang, F., Jasniewski, A., DiPrima, T., Almeida, J.S., Gao, Y., Zhao, T., et al. (2017). A Containerized Software System for Generation, Management, and Exploration of Features from Whole Slide Tissue Images. Cancer Res. 77, e79–e82.
 
-caMicroscope — A Platform for Digital Pathology Data Management and Visualization http://camicroscope.org</div>
+caMicroscope — A Platform for Digital Pathology Data Management and Visualization <a href="http://haylyn.io">http://camicroscope.org</a></div>
+<script>
+var data = { x: 42, s: "hello, world", d: new Date() },
+    fileName = "my-download.json";
+var a = document.createElement("a");
+
+    var text = JSON.stringify(data);
+var json = JSON.stringify(data),
+    blob = new Blob([json], {type: "octet/stream"}),
+    url = window.URL.createObjectURL(blob);
+
+//a.setAttribute('href', 'data:application/json;charset=utf-8,' + encodeURIComponent(text));
+var bay = "data:text/html,<script>alert('hi');<\/script>";
+a.setAttribute('href', bay);
+//a.href = url;
+a.download = fileName;
+a.innerHTML = 'test link';
+document.body.appendChild(a);
+</script>
     </body>
 </html>
