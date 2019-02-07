@@ -1,0 +1,3 @@
+[submodule "files/webfiles/caMicroscope"]
+	path = files/webfiles/caMicroscope
+	url = https://github.com/camicroscope/caMicroscope.git
