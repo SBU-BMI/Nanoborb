@@ -59,7 +59,7 @@ public class MainFrame extends JFrame {
     private MainFrame(String currentdirectory, String webfiles, String startURL, boolean useOSR, boolean isTransparent) {
         this.currentdirectory = currentdirectory;
         createMenuBar();
-        ImageIcon img = new ImageIcon(getClass().getResource("/webfiles/borb-20x20.png"));
+        ImageIcon img = new ImageIcon(getClass().getResource("/webfiles/borb-256x256.png"));
         setIconImage(img.getImage());
         w = new ImageBoxServer(webfiles);
         w.start();
