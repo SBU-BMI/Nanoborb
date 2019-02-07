@@ -74,6 +74,8 @@ public class MainFrame extends JFrame {
         settings.windowless_rendering_enabled = useOSR;
         cefApp_ = CefApp.getInstance(settings);
         client_ = cefApp_.createClient();
+        downloadDialog downloadDialog = new downloadDialog(this);
+        client_.addDownloadHandler(downloadDialog);
         browser_ = client_.createBrowser(startURL, useOSR, isTransparent);
         browerUI_ = browser_.getUIComponent();
         address_ = startURL;
