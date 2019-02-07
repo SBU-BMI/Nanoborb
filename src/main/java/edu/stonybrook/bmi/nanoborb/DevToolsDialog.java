@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.stonybrook.bmi.nanoborb;
 
 import java.awt.BorderLayout;
@@ -24,14 +19,11 @@ public class DevToolsDialog extends JDialog {
 
     public DevToolsDialog(Frame owner, String title, CefBrowser browser, Point inspectAt) {
         super(owner, title, false);
-
         setLayout(new BorderLayout());
         setSize(800, 600);
         setLocation(owner.getLocation().x + 20, owner.getLocation().y + 20);
-
         devTools_ = browser.getDevTools(inspectAt);
         add(devTools_.getUIComponent());
-
         addComponentListener(new ComponentAdapter() {
             @Override
             public void componentHidden(ComponentEvent e) {

@@ -41,7 +41,7 @@ public class downloadDialog extends JDialog implements CefDownloadHandler {
         private JLabel fileName_ = new JLabel();
         private JLabel status_ = new JLabel();
         private JButton dlAbort_ = new JButton();
-        private JButton dlRemoveEntry_ = new JButton("x");
+        private JButton dlRemoveEntry_ = new JButton("Delete");
         private CefDownloadItemCallback callback_;
         private Color bgColor_;
 
@@ -53,13 +53,10 @@ public class downloadDialog extends JDialog implements CefDownloadHandler {
             identifier_ = downloadItem.getId();
             bgColor_ = identifier_ % 2 == 0 ? Color.WHITE : Color.YELLOW;
             setBackground(bgColor_);
-
             fileName_.setText(suggestedName);
             add(fileName_, BorderLayout.NORTH);
-
             status_.setAlignmentX(LEFT_ALIGNMENT);
             add(status_, BorderLayout.CENTER);
-
             JPanel controlPane = new JPanel();
             controlPane.setLayout(new BoxLayout(controlPane, BoxLayout.X_AXIS));
             controlPane.setOpaque(true);
@@ -99,8 +96,8 @@ public class downloadDialog extends JDialog implements CefDownloadHandler {
             String rcvBytes = humanReadableByteCount(downloadItem.getReceivedBytes());
             String totalBytes = humanReadableByteCount(downloadItem.getTotalBytes());
             String speed = humanReadableByteCount(downloadItem.getCurrentSpeed()) + "it/s";
-            if (downloadItem.getReceivedBytes() >= 5 && isHidden_) {
-                dialog_.setVisible(false);
+            if (downloadItem.getReceivedBytes() >= 500000 && isHidden_) {
+                dialog_.setVisible(true);
                 dialog_.toFront();
                 owner_.toBack();
                 isHidden_ = false;
@@ -111,8 +108,7 @@ public class downloadDialog extends JDialog implements CefDownloadHandler {
             dlAbort_.setEnabled(downloadItem.isInProgress());
             dlRemoveEntry_.setEnabled(!downloadItem.isInProgress() || downloadItem.isCanceled()
                     || downloadItem.isComplete());
-            if (!downloadItem.isInProgress() && !downloadItem.isCanceled()
-                    && !downloadItem.isComplete()) {
+            if (!downloadItem.isInProgress() && !downloadItem.isCanceled() && !downloadItem.isComplete()) {
                 fileName_.setText("FAILED - " + fileName_.getText());
                 callback.cancel();
             }
@@ -120,8 +116,8 @@ public class downloadDialog extends JDialog implements CefDownloadHandler {
     }
 
     @Override
-    public void onBeforeDownload(CefBrowser browser, CefDownloadItem downloadItem,
-            String suggestedName, CefBeforeDownloadCallback callback) {
+    public void onBeforeDownload(CefBrowser browser, CefDownloadItem downloadItem, String suggestedName, CefBeforeDownloadCallback callback) {
+        //System.out.println("onBeforeDownload");
         callback.Continue(suggestedName, true);
         DownloadObject dlObject = new DownloadObject(downloadItem, suggestedName);
         downloadObjects_.put(downloadItem.getId(), dlObject);
@@ -129,10 +125,14 @@ public class downloadDialog extends JDialog implements CefDownloadHandler {
     }
 
     @Override
-    public void onDownloadUpdated(
-        CefBrowser browser, CefDownloadItem downloadItem, CefDownloadItemCallback callback) {
+    public void onDownloadUpdated(CefBrowser browser, CefDownloadItem downloadItem, CefDownloadItemCallback callback) {
+        //System.out.println("onDownloadUpdated");
         DownloadObject dlObject = downloadObjects_.get(downloadItem.getId());
-        if (dlObject == null) return;
+        if (dlObject == null) {
+            return;
+        } else {
+            //System.out.println("ahead warp factor!");
+        }
         dlObject.update(downloadItem, callback);
     }
 }

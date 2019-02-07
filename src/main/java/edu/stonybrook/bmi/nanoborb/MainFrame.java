@@ -11,7 +11,6 @@ import java.awt.Component;
 import java.awt.Desktop;
 import java.awt.Frame;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.event.KeyEvent;
@@ -23,6 +22,7 @@ import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Field;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -191,40 +191,29 @@ public class MainFrame extends JFrame {
             webfiles = "files/webfiles";
         } else if (OS.isMacintosh()) {
             System.out.println("Mac OS Detected...");
-            File f = new java.io.File(MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath());
-            
-            String blah = MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath();
-            System.out.println("interesting : "+blah);
-            Path w = Paths.get(blah);
-            System.out.println("NEO PATH "+w.getParent());
-            
-            String jarname = f.getName();
-            String jarpath = f.getPath();
-            System.out.println("jar name : "+jarname);
-            System.out.println("jar path : "+jarpath);
-            String prefix = "Contents/Resources";
-            String apppath = jarpath.substring(0,jarpath.length()-prefix.length()-jarname.length()-1);
-            System.out.println("app path : "+apppath);
-            webfiles = apppath+"Contents/Resources/files/webfiles";
-            //currentdirectory = apppath.substring(0, apppath.length()-MacOSXApplicationName.length());
+            Path jarfilepath = Paths.get(MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath());
+            Path webpath = jarfilepath.getParent();
+            webfiles = webpath.toString()+"/files/webfiles";
+            try {
+                webfiles = URLDecoder.decode(webfiles, "UTF-8");
+            } catch (UnsupportedEncodingException ex) {
+                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            currentdirectory = jarfilepath.getParent().getParent().getParent().getParent().toString();
+            System.out.println("Nanoborb location : "+currentdirectory);
+            System.out.println("Web files location : "+webfiles);
         } else if (OS.isLinux()) {
             System.out.println("Linux OS Detected...");
             webfiles = "files/webfiles";
         } else {
             System.out.println("Unknown OS Detected...");
         }
-        Field fieldSysPath = null;
+        Field fieldSysPath;
         try {
             fieldSysPath = ClassLoader.class.getDeclaredField("sys_paths");
             fieldSysPath.setAccessible( true );
             fieldSysPath.set( null, null );
-        } catch (NoSuchFieldException ex) {
-            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SecurityException ex) {
-            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IllegalArgumentException ex) {
-            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
+        } catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException ex) {
             Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
         }
         if (!CefApp.startup()) {
@@ -233,7 +222,6 @@ public class MainFrame extends JFrame {
         }
         if (webfiles != null) {
             MainFrame mf = new MainFrame(currentdirectory, webfiles,"http://localhost:8888/files/splash.html", false, false);
-            //MainFrame mf = new MainFrame(currentdirectory, webfiles,"data:application/json;charset=utf-8,%7B%22x%22%3A42%2C%22s%22%3A%22hello%2C%20world%22%2C%22d%22%3A%222019-02-06T04%3A45%3A19.522Z%22%7D", false, false);
         } else {
             System.out.println("Unsupported OS...");
         }
