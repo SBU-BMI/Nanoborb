@@ -36,6 +36,8 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import org.cef.CefApp;
 import org.cef.CefApp.CefAppState;
@@ -55,11 +57,12 @@ public class MainFrame extends JFrame {
     private final Component browerUI_;
     private static ImageBoxServer w;
     private String currentdirectory;
+    private String target;
 
     private MainFrame(String currentdirectory, String webfiles, String startURL, boolean useOSR, boolean isTransparent) {
         this.currentdirectory = currentdirectory;
         createMenuBar();
-        ImageIcon img = new ImageIcon(getClass().getResource("/webfiles/borb-256x256.png"));
+        ImageIcon img = new ImageIcon(getClass().getResource("/webfiles/Nanoborb-256x256.png"));
         setIconImage(img.getImage());
         w = new ImageBoxServer(webfiles);
         w.start();
@@ -100,28 +103,28 @@ public class MainFrame extends JFrame {
         JMenuItem openMenuItem = new JMenuItem(new AbstractAction("Open") {
             @Override
             public void actionPerformed(ActionEvent ae) {
-		JFileChooser jfc = new JFileChooser(new File(currentdirectory));
+                File cd = new File(currentdirectory);
+                System.out.println("CURRENT DIRECTORY "+currentdirectory);
+		JFileChooser jfc = new JFileChooser(cd);
 		jfc.setDialogTitle("Select an image");
-		jfc.addChoosableFileFilter(new FileNameExtensionFilter("TIFF images", "tif", "tiff"));
-		jfc.addChoosableFileFilter(new FileNameExtensionFilter("SVS images", "svs"));
-                jfc.addChoosableFileFilter(new FileNameExtensionFilter("VSI images", "vsi"));
-                jfc.addChoosableFileFilter(new FileNameExtensionFilter("All images", "svs", "tif", "tiff","vsi"));
+		jfc.addChoosableFileFilter(new FileNameExtensionFilter("TIFF Images", "tif", "tiff"));
+		jfc.addChoosableFileFilter(new FileNameExtensionFilter("SVS Images", "svs"));
+                jfc.addChoosableFileFilter(new FileNameExtensionFilter("VSI Images", "vsi"));
                 jfc.setAcceptAllFileFilterUsed(true);
 		int returnValue = jfc.showOpenDialog(null);
 		if (returnValue == JFileChooser.APPROVE_OPTION) {
                     File f = jfc.getSelectedFile();
                     if (f.exists()) {
                         System.out.println("You chose wisely! "+f.getPath());
-                        System.out.println("pre conversion : "+f.toURI().toString());
-                        String target = null;
                         try {
                             target = URLEncoder.encode(f.toURI().toString(),"UTF-8");
                         } catch (UnsupportedEncodingException ex) {
                             Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
                         }
                         address_ = "http://localhost:8888/files/camic.html?id=http://localhost:8888/bog/"+target;
-                        //address_ = "http://localhost:8888/files/caMicroscope/apps/lite/viewer/viewer.html?slideId=local&id=http://localhost:8888/bog/"+target;
                         browser_.loadURL(address_);
+                        currentdirectory = f.getParent();
+                        System.out.println("New CURRENT DIRECTORY "+currentdirectory);
                     } else {
                         System.out.println("File cannot be found.  Please check for weird and offending characters.");
                     }
@@ -139,10 +142,24 @@ public class MainFrame extends JFrame {
         JMenuItem externalMenuItem = new JMenuItem(new AbstractAction("External Browser") {
             @Override
             public void actionPerformed(ActionEvent ae) {
-                SendURLtoExternal();
+                try {
+                    Desktop.getDesktop().browse(new URI(address_));
+                } catch (URISyntaxException | IOException ex) {
+                    Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
         viewMenu.add(externalMenuItem);
+        
+        JMenuItem OSDMenuItem = new JMenuItem(new AbstractAction("OpenSeaDragon") {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                address_ = "http://localhost:8888/files/debug/osd.html?id=http://localhost:8888/bog/"+target;
+                browser_.loadURL(address_);
+            }
+        });
+        viewMenu.add(OSDMenuItem);
+        
         JMenu aboutMenu = new JMenu("About");
         JMenuItem quipMenuItem = new JMenuItem(new AbstractAction("QuIP") {
             @Override
@@ -164,21 +181,13 @@ public class MainFrame extends JFrame {
             devToolsDlg.setVisible(true);
             showDevTools.setEnabled(false);
         });
-        aboutMenu.add(showDevTools);
+        viewMenu.add(showDevTools);
         menubar.add(fileMenu);
         menubar.add(viewMenu);
         menubar.add(aboutMenu);
         setJMenuBar(menubar);
     }
     
-    private void SendURLtoExternal() {
-        try {
-            Desktop.getDesktop().browse(new URI(address_));
-        } catch (URISyntaxException | IOException ex) {
-            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
-
     public static void main(String[] args) {
         ch.qos.logback.classic.Logger root = (ch.qos.logback.classic.Logger)(org.slf4j.Logger)LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME);
         root.setLevel(ch.qos.logback.classic.Level.OFF);
@@ -191,6 +200,11 @@ public class MainFrame extends JFrame {
             webfiles = "files/webfiles";
         } else if (OS.isMacintosh()) {
             System.out.println("Mac OS Detected...");
+            try {
+                UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+            } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException ex) {
+                Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
+            }
             Path jarfilepath = Paths.get(MainFrame.class.getProtectionDomain().getCodeSource().getLocation().getPath());
             Path webpath = jarfilepath.getParent();
             webfiles = webpath.toString()+"/files/webfiles";
