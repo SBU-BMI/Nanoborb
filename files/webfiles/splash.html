@@ -14,4 +14,23 @@ ALL RIGHTS RESERVED
         <div>Saltz, J., Sharma, A., Iyer, G., Bremer, E., Wang, F., Jasniewski, A., DiPrima, T., Almeida, J.S., Gao, Y., Zhao, T., et al. (2017). A Containerized Software System for Generation, Management, and Exploration of Features from Whole Slide Tissue Images. Cancer Res. 77, e79–e82.<br>
 
 caMicroscope — A Platform for Digital Pathology Data Management and Visualization <a href="http://camicroscope.org">http://camicroscope.org</a></div>
+</body>
+<script>
+let index = 0;
+let flop = false;
+const secretCode = [38,38,40,40,37,39,37,39,66,65,13]; // try konami code with `enter` to finish.
+const imgPath = ['./Nanoborb-256x256.png','./nanoborb.gif']
+window.addEventListener('keyup', (e) => {
+  let code = e.keyCode;
+  if(code == secretCode[index]) index++;
+  else index = 0;
+  if(index == secretCode.length) {
+  	const img = document.querySelector('img');
+  	index = 0;
+  	flop = !flop;
+  	img.src = imgPath[+flop];
+
+  };
+});
+</script>
 </html>
