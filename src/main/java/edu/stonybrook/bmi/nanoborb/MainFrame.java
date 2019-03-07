@@ -164,10 +164,17 @@ public class MainFrame extends JFrame {
         JMenuItem quipMenuItem = new JMenuItem(new AbstractAction("QuIP") {
             @Override
             public void actionPerformed(ActionEvent ae) {
-                browser_.loadURL("http://localhost:8888/files/about.html");
+                browser_.loadURL("https://sbu-bmi.github.io/quip_distro/");
             }
         });
         aboutMenu.add(quipMenuItem);
+        JMenuItem aboutMenuItem = new JMenuItem(new AbstractAction("Main Page") {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                browser_.loadURL("http://localhost:8888/files/splash.html");
+            }
+        });
+        aboutMenu.add(aboutMenuItem);
         final JMenuItem showDevTools = new JMenuItem("Developer Tools");
         showDevTools.addActionListener((ActionEvent e) -> {
             Frame owner_ = this;
