@@ -75,6 +75,7 @@ public class MainFrame extends JFrame {
         setTitle("Nanoborb");
         CefSettings settings = new CefSettings();
         settings.windowless_rendering_enabled = useOSR;
+        settings.cache_path = "bcache";
         cefApp_ = CefApp.getInstance(settings);
         client_ = cefApp_.createClient();
         downloadDialog downloadDialog = new downloadDialog(this);
