@@ -8,7 +8,7 @@ package edu.stonybrook.bmi.nanoborb;
 import com.ebremer.imagebox.ImageBoxServer;
 import java.awt.BorderLayout;
 import java.awt.Component;
-import java.awt.Desktop;
+import java.awt.Desktop;    
 import java.awt.Frame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ComponentAdapter;
