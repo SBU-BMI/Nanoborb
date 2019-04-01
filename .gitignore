@@ -32,3 +32,4 @@ debug.log
 hs_err_pid*
 /target/
 /cache/
+/bcache/
