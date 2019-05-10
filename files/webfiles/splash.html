@@ -183,6 +183,8 @@ window.addEventListener('keyup', (e) => {
   if(code == secretCode[index]) index++;
   else index = 0;
   if(index == secretCode.length) {
+    var audio = new Audio('BirbAlarm.mp3');
+    audio.play();
     const div = document.getElementById('img')
     const img = div.querySelector('img');
     index = 0;
