@@ -1,7 +1,9 @@
 # Nanoborb
 
 Since biomedical datasets and research motivation comes in different scales, it’s important that there exist tooling setups to fit these different needs. While in many situations, collaborative online research is helpful, we aim to provide visualization and analysis tools to individual users as well.
+
 NanoBorb is a offline-first toolkit for digitized whole slide images. By using NanoBorb, a user can interact fully with a large whole slide image without a powerful dedicated server, or even continuous internet access. Thus, users face minimal barriers to view, annotate, and analyze slides, as well as visualize and improve applicable machine learning methods.
+
 NanoBorb is built on ImageBox and caMicroscope. If a served version of the NanoBorb experience is desired, see quip distro. To provide feedback or suggestions click on the bug icon on pages where it appears.
 
 
