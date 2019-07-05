@@ -3,38 +3,20 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>edu.stonybrook.bmi</groupId>
     <artifactId>Nanoborb</artifactId>
-    <version>1.0</version>
+    <version>1.5.0</version>
     <packaging>jar</packaging>
     <dependencies>
+        <dependency>
+            <groupId>com.ebremer</groupId>
+            <artifactId>ImageBox</artifactId>
+            <version>1.1.1</version>
+            <type>jar</type>
+        </dependency>
         <dependency>
             <groupId>jcef</groupId>
             <artifactId>jcef</artifactId>
             <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>jogl-all-natives-windows-amd64</groupId>
-            <artifactId>jogl-all-natives-windows-amd64</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>jogl-all</groupId>
-            <artifactId>jogl-all</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>gluegen-rt</groupId>
-            <artifactId>gluegen-rt</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>gluegen-rt-natives-windows-amd64</groupId>
-            <artifactId>gluegen-rt-natives-windows-amd64</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ebremer</groupId>
-            <artifactId>ImageBox</artifactId>
-            <version>1.0.5</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
     <properties>
@@ -97,7 +79,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.1</version>
+                <version>2.22.2</version>
                 <configuration>
                     <systemPropertyVariables>
                         <propertyName>java.library.path</propertyName>
